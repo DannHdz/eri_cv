@@ -1,0 +1,42 @@
+.bnts-social{
+    background-color: white;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color: darkblue;
+    width: 20px;
+    height: 20px;
+
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+    /*border-radius: 5px;*/
+    /*border: 2px solid purple;*/
+    padding: 10px;
+
+}
+
+.button-cv{
+    font-size: 15px;
+    background-color: blue;
+    color: blanchedalmond;
+    border-color: blue;
+    border-radius: 3px;
+    width: 250px;
+    height: 50px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-transform: uppercase;
+
+}
+
+.social-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16px;
+}

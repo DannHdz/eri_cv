@@ -1,0 +1,42 @@
+@import url(./hero.css); /*Manda a llamar otras hojas de estilo*/
+@import url(./about-me.css);
+@import url(./social-btns.css);
+@import url(./menu-nav.css);
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --headline2: bold 59px/ 65px var(--fontBase);
+    --headline5: bold 25px/ 39px var(--fontBase);
+    --body1: bold 16px/20px var(--fontBase);
+}
+
+body{
+    background-color: aquamarine; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #310A90;
+    margin-left: 180px;
+    margin-right: 80px;
+}
+
+
+/*px -> absolute*/
+/*vh -> flexible:Se adapta a la medida del dispositivo en el que se visualice*/
+/*em -> Relativa va a depender de su parent element*/
+
+
+/*
+Quien ha tenido una entrevista de trabajo en el pasado?
+Como te sentiste durante la entrevista?
+Que repetirias de esta experiencia?
+Que hubieras hecho diferente?
+Cuales son algunas de las preguntas mas comunes a responder en una entrevista de trabajo?
+*/
+ 
+*{
+    margin: 0px;
+}
+ 
+html{
+ 
+    font-size: 16px;
+}

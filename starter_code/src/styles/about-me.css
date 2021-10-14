@@ -1,0 +1,23 @@
+#about-me{
+    height: 35vh;
+    background-color: white;
+    font-size: 19px;
+}
+
+.about-me-container{
+    padding: 20px;
+    display:block;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.about-me-container h2{
+    font-size: 1.6em; 
+    text-align: center;   
+}
+
+.about-me-container h5{
+    font-size: 0.9em; 
+    text-align: center;   
+}
